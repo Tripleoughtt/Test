@@ -42,15 +42,15 @@ $__System.register("2", ["3", "4", "5", "6", "7", "8", "9"], function (_export) 
           value: function render() {
             return React.createElement(
               "div",
-              null,
+              { className: "nav-bar" },
               React.createElement(
                 Link,
-                { role: "button", className: "btn", to: "blog" },
+                { role: "button", className: "btn nav-buttons", to: "blog" },
                 " TO DA BLOGGGG "
               ),
               React.createElement(
                 Link,
-                { role: "button", className: "btn", to: "/" },
+                { role: "button", className: "btn nav-buttons", to: "/" },
                 "HEADED HOME BITCHESSSSS"
               )
             );
